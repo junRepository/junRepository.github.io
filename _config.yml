@@ -1,5 +1,5 @@
-baseurl: "/jun" # the subpath of your site, e.g. /blog
-url: "https://junrepository.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/junu" # the subpath of your site, e.g. /blog
+url: "https://junrepository.github.io/junu/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
@@ -10,7 +10,11 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
-paginate: 5
+# encoding:
+#   charset: UTF-8
+
+paginate: 6
+#한 페이지에 보이는 post수 
 paginate_path: "/page/:num"
 
 
@@ -24,6 +28,7 @@ defaults:
 include:
   - _pages
 
+favicon: images/01.jpg
 
 # Tags
 tag_page_dir:         tag
