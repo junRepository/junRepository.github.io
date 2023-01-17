@@ -7,7 +7,8 @@
   }
 
   .article__image {
-    width: 50%;
+    // width: auto;
+    width: 13.5cm;
     display: block;
     background-position: center;
     background-size: cover;
@@ -26,24 +27,32 @@
   }
 
   .article__content {
-    width: 60%;
-    padding: 50px;
+    width: 100%;
+    //post박스 크기 조절
+    // padding: 50px;
+    padding: 54px;
     margin-left: -10%;
     z-index: 1;
+    //박스 모서리 타원화
     border-radius: 3px;
+    //박스 색상 지정
     background: rgba(255, 255, 255, 0.98);
     box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 
     .article__tag {
+      //tag 글자 크기 조절
       font-size: 12px;
+      //tag 글자 띄어쓰기 칸 조절
       letter-spacing: 0.5px;
       font-weight: 700;
       text-transform: uppercase;
     }
 
     .article__title {
+      //posts 제목하고 내용 분리 크기 조절
       margin-bottom: 20px;
-      font-size: 30px;
+      //posts박스 제목 크기 조절
+      font-size: 35px;
       
       a {
         color: $dark;
@@ -56,11 +65,13 @@
     .article__excerpt {
       margin-bottom: 20px;
       font-size: 16px;
+      //post 박스 설명란 줄 크기 조절
       line-height: 26px;
     }
 
     .article__meta {
-      font-size: 12px;
+      //post 박스 날짜 크기 조절
+      font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
       color: $gray;
@@ -73,7 +84,7 @@
       .read-more {
         margin-left: auto;
         padding-bottom: 5px;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 18px;
         letter-spacing: 1px;
         text-transform: uppercase;
