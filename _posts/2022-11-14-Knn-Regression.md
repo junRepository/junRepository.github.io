@@ -1,4 +1,10 @@
- 
+---
+layout: post
+title:  K-NN Regression(K-최근접 이웃 회귀)
+date:   2022-11-14 23:55
+image:  
+tags:   machine_learning sklearn
+---
 
 # K-NN (K-Nearest Neighbor)
 #### - 새로운 데이터가 기존 어느 그룹에 속하는지 분류하는 것
