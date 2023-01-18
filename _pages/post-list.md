@@ -34,7 +34,7 @@ image:
 </ul>
 {% endfor %}
 
-<div class="posts">
+<!-- <div class="posts">
   {% for post in site.tags['Resources'] %}
     <article class="post">
       <h1>
@@ -51,4 +51,4 @@ image:
       </a>
     </article>
   {% endfor %}
-</div>
+</div> -->
