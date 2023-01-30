@@ -63,16 +63,16 @@
 }
 
 .post-image {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: $light-gray;
   &:after {
     content: "";
     display: table;
-    width: 100%;
+    width: 100px;
     min-height: 300px;
-    padding-top: 50%;
+    padding-top: 30%;
   }
 }
 
