@@ -61,7 +61,6 @@ tags:   MarkDown
 
 ### 03. 윗첨자, 아랫첨자
 <br/>
-
 ##### 윗첨자
 제곱을 표현할 때 사용할 수 있다.  
 3<sup>2
@@ -76,3 +75,23 @@ tags:   MarkDown
 3<sub>2
 ```
 ***
+
+### 04. 링크 삽입
+<br/>
+[jun's blog](https://junrepository.github.io)
+```md
+[링크 이름](https://링크))
+```
+
+이미지 링크 삽입
+```md
+[![이미지설명(이미지 소스 URL)]](링크 URL)
+```
+
+***
+
+### 05. 형광팬
+<mark style='background-color: #fff5b1'>노랑색</mark>
+```md
+<mark style='background-color: #fff5b1'>노랑색</mark>
+```
