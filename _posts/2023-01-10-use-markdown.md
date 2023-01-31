@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  마크다운(MarkDown)사용방법
-date:   2023-1-10 21:00
+date:   2023-01-10 21:00
 image:  markdown.jpg
 tags:   MarkDown
 ---
