@@ -190,6 +190,7 @@ $ curl -X GET http://localhost:5000/v2/my-image/tags/list
 
 # 출력 : {"name":"my-image","tags":["v1.0.0"]}
 ```
+
 <br/>
 <br/>
 \<출처\>  
