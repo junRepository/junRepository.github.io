@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  Docker image 기본 명령어
-date:   2023-01-31 15:24
+date:   2023-01-31 15:30
 image:  
 tags:   Docker
 ---
 
 ## 01. Docker image와 Dockerfile
 
-- **Docker image**: 코드뿐만 아니라 프로그램에 의존한 모든 것을 함께 패키징한 데이터이다.  
+- **Docker image**: 코드뿐만 아니라 프로그램에 의존한 모든 것을 함께 패키징한 데이터이다.    
 - **Dockerfile**: Docker image를 쉽게 만들어질 수 있도록 제공하는 템플릿이다.  
 <img src="/images/docker_image.png" width="80%">  
 위의 그림이 Docker image와 Dockerfile을 쉽게 설명되어 있는 이미지이다.  
