@@ -2,7 +2,7 @@
 layout: post
 title:  Docker image 기본 명령어
 date:   2023-01-31 15:30
-image:  
+image:  docker_image.png
 tags:   Docker
 ---
 
