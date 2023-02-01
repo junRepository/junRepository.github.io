@@ -82,17 +82,20 @@ tags:   MarkDown
 ```md
 [링크 이름](https://링크))
 ```
-
-이미지 링크 삽입
-```md
-[![이미지설명(이미지 소스 URL)]](링크 URL)
-
-```
-
 ***
 
 ### 05. 형광팬
 <mark style='background-color: #fff5b1'>노랑색</mark>
 ```md
 <mark style='background-color: #fff5b1'>노랑색</mark>
+```
+***
+
+
+### 06. 이미지 삽입
+```md
+![대체 텍스트(alt)](이미지_주소 "이미지 설명(title)")
+
+<img src="이미지_주소" title="대체 텍스트" width="80%"> 
+<figcaption>이미지 설명</figcaption>
 ```
