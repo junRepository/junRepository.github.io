@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  실습 5. Feast 와 MLFlow 를 활용한 머신러닝 프로젝트 적용
 date:   2023-04-22 00:00
@@ -106,4 +106,4 @@ tags:   MLFlow
     ***
 
 
- -->
+

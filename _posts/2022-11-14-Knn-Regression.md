@@ -3,7 +3,7 @@ layout: post
 title:  K-NN Regression(K-최근접 이웃 회귀)
 date:   2022-11-14 23:55
 image:  
-tags:   machine_learning sklearn
+tags:   machine_learning
 ---
 
 # K-NN (K-Nearest Neighbor)
