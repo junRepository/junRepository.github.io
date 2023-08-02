@@ -115,3 +115,10 @@ python
 >>> print(DEVICE)
 ```
 아래 `cuda`가 뜨면 Pytorch 설치는 성공이다.<br/>
+
+
+<br/>
+<br/>
+<br/>
+\<참고\>  
+[Lupin's Development blog](https://devhyeon.tistory.com/29)<br/>
