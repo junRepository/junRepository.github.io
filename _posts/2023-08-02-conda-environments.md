@@ -46,7 +46,7 @@ GTX1080Ti를 사용하기 때문에 6.1을 지원하는 CUDA버전을 찾는다.
 위에서 CUDA와 cuDNN 버전을 찾았다면 해당 버전을 찾아 설치한다.<br/>
 [CUDA Toolkit Archive](https://developer.nvidia.com/cuda-toolkit-archive)에서 CUDA버전을 찾아 설치한다.<br/>
 <img src="/images/cudainstall.jpg" width="80%"><br/>
-cmd 창에서 `nvcc -V`를 입력하여 설치가 잘 되었는지 확인한다.<br/>
+cmd 창에서 `nvcc -V`를 입력하여 설치가 잘 되었는지 확인한다. <br/>
 
 [cuDNN Archive](https://developer.nvidia.com/rdp/cudnn-archive)에서 cuDNN 버전을 찾아 설치한다. **(다운하기 위해 로그인을 해야한다.)**<br/>
 <img src="/images/cudnninstall.jpg" width="80%"><br/>
