@@ -29,7 +29,7 @@ NVIDIA 드라이버 최신버전으로 설치하거나 기존 설치가 되어�
 
 ***
 
-## 03. CUDA & cuDNN 설치
+## 03. CUDA & cuDNN 설치sklearn conda install
 #### 03-1 CUDA, cuDNN 지원 확인
 CUDA를 설치하기 전에 [CUDA | Wikiwand](https://www.wikiwand.com/en/CUDA#/GPUs_supported)에서 GPU에 지원되는 CUDA 버전을 찾는다.<br/>
 GTX1080Ti를 사용하기 때문에 6.1을 지원하는 CUDA버전을 찾는다.<br/>
