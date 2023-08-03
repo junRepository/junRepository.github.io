@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[프로젝트]기업 건전성 예측 모델 serving"
-date:   2023-07-02 00:00
+date:   2023-07-28 00:00
 image:  
 tags:   project
 ---
