@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  Python GUI 만들기
 date:   2023-02-12 00:00
@@ -6,6 +6,7 @@ image:
 tags:   GUI
 ---
 
+###### python을 이용하여 어플리케이션을 만들기 위해 PyQT5 라이브러리를 사용하였다.
 ```py
 import sys
 from PyQt5.QtWidgets import *
@@ -81,4 +82,4 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 
 
-``` -->
+```
