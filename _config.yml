@@ -28,6 +28,10 @@ defaults:
 include:
   - _pages
 
+# Local reference documents are not public website assets.
+exclude:
+  - "자료"
+
 favicon: images/01.jpg
 
 # Tags

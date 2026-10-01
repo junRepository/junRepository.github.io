@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 *.DS_Store
 Gemfile.lock
+
+# Local research references and document extraction output
+/자료/

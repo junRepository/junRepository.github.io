@@ -46,7 +46,7 @@ layout: default
     <!-- begin post -->
     <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
 
-      <div class="post__content">
+      <div class="post__content{% if page.research %} research-content{% endif %}">
         {{ content }}
       </div>
 
