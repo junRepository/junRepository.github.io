@@ -232,12 +232,12 @@ RGB 영상과 LiDAR의 깊이 정보를 결합하여 고건축물과 유물을 �
 
 1. **특징점 추출 기술 개발** — 모서리, 곡선, 꺾임 등 구조적 특징점을 자동 검출하고 중복 특징점 제거와 좌표 정확도 개선을 수행합니다. 촬영 각도와 조명 변화에 강인한 매칭 기술을 개발하여 최소한의 특징점으로 원형에 가까운 복원을 지향합니다.  
 
-![두 이미지에서 SuperPoint 특징점과 기술자를 추출해 대응점을 찾는 구조]({{ '/images/portfolio/feature-matching.png' | relative_url }}){: .research-figure-narrow }
-*특징점 추출과 대응점 매칭 개념*
+  ![두 이미지에서 SuperPoint 특징점과 기술자를 추출해 대응점을 찾는 구조]({{ '/images/portfolio/feature-matching.png' | relative_url }}){: .research-figure-narrow }
+  *특징점 추출과 대응점 매칭 개념*
 
 2. **RGB–LiDAR 융합 이미지 생성** — RGB 카메라와 LiDAR의 정밀 캘리브레이션, 센서 동기화, 포인트 클라우드의 영상 정합을 수행합니다. 이미지 투영으로 색상과 깊이를 결합한 RGB+D를 생성하여 구조 정보를 포함하는 고품질 3D 복원 입력을 확보합니다.  
 
-![RGB 영상과 LiDAR 포인트 클라우드를 캘리브레이션하고 영상에 투영해 RGBD를 생성하는 과정]({{ '/images/portfolio/rgb-lidar-fusion.png' | relative_url }})
-*RGB–LiDAR 좌표계 정합 및 RGBD 이미지 생성 프로세스*
+  ![RGB 영상과 LiDAR 포인트 클라우드를 캘리브레이션하고 영상에 투영해 RGBD를 생성하는 과정]({{ '/images/portfolio/rgb-lidar-fusion.png' | relative_url }})
+  *RGB–LiDAR 좌표계 정합 및 RGBD 이미지 생성 프로세스*
 
 ---
