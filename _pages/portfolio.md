@@ -80,16 +80,16 @@ research: true
 <div class="portfolio-figures">
   <figure>
     <img src="{{ '/images/portfolio/boustrophedon-path.png' | relative_url }}" alt="창고 지도 위의 Boustrophedon 커버리지 경로 예시" loading="lazy" width="619" height="783">
-    <figcaption>Boustrophedon 경로 예시 · PPT 4쪽</figcaption>
+    <figcaption>Boustrophedon 경로 예시</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/portfolio/stc-path.png' | relative_url }}" alt="창고 지도 위의 두 STC 경로와 관측 영역 예시" loading="lazy" width="1085" height="1086">
-    <figcaption>STC 경로 예시 · PPT 4쪽</figcaption>
+    <figcaption>STC 경로 예시</figcaption>
   </figure>
 </div>
 
 ![풋프린트 크기를 기준으로 창고 공간을 나눈 균일 그리드 예시]({{ '/images/portfolio/footprint-grid.png' | relative_url }}){: .research-figure-narrow }
-*풋프린트 기반 그리드 예시 · PPT 4쪽.*
+*풋프린트 기반 그리드 예시*
 
 **3. 연구 방법**
 
@@ -98,11 +98,11 @@ research: true
 <div class="portfolio-figures">
   <figure>
     <img src="{{ '/images/portfolio/uniform-grid.png' | relative_url }}" alt="전체 공간을 같은 크기의 셀로 나눈 기존 균일 그리드" loading="lazy" width="768" height="767">
-    <figcaption>기존 균일 그리드 · PPT 4쪽</figcaption>
+    <figcaption>기존 균일 그리드</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/portfolio/adaptive-grid.png' | relative_url }}" alt="공간 구조에 따라 셀 크기를 조정한 제안 적응형 그리드" loading="lazy" width="734" height="736">
-    <figcaption>제안한 적응형 그리드 · PPT 4쪽</figcaption>
+    <figcaption>제안한 적응형 그리드</figcaption>
   </figure>
 </div>
 
@@ -112,10 +112,10 @@ research: true
 4. **영역 분할과 경로 생성** — 커버 비용에 따라 로봇별 연결 영역을 할당하고, 지역 균형화 후 Hybrid STC 경로를 생성합니다.
 
 ![석사 연구 전체 프로세스]({{ '/images/portfolio/thesis-pipeline.png' | relative_url }})
-*센서 풋프린트 계산부터 로봇별 경로 생성까지의 전체 프로세스 · PPT 5쪽.*
+*센서 풋프린트 계산부터 로봇별 경로 생성까지의 전체 프로세스*
 
 ![자유공간, 장애물 경계, 거리 지도를 ResNet18에 입력해 셀 임베딩을 추출하는 구조]({{ '/images/portfolio/resnet-features.png' | relative_url }})
-*ResNet 기반 특징 추출 · PPT 5쪽.*
+*ResNet 기반 특징 추출*
 
 **4. 실험 결과**
 
@@ -147,27 +147,34 @@ research: true
 
 드론과 이동로봇의 영상 및 IoT 센서 데이터를 AI로 분석하여 작업자와 물류 장비의 위험 상황을 탐지하고, 충돌 위험 예측과 경보를 지원하는 산업현장 통합 안전관리 플랫폼 개발 과제입니다.
 
+**이글아이 시스템 연구**  
+
+목적 : 창고 내 사각지대를 줄이고 작업자와 물류 장비가 이동하는 공간을 지속적으로 모니터링  
+- 복잡한 실내 환경에서 모든 영역을 효율적으로 커버하는 경로 생성. 
+- 드론 촬영 영상을 창고 지도와 연결하여 작업 현장 확인 사각지대를 줄이는 경로계획으로 작업자와 물류 장비가 이동하는 주요 통로 모니터링.  
+
 **담당 범위: 드론 경로계획, 비행 실행, 영상 촬영 및 서버 전송**
 
 이글아이 시스템 연구에서는 창고 내 사각지대를 줄이고, 작업자와 물류 장비가 이동하는 공간을 지속적으로 모니터링하는 것을 목표로 했습니다. 드론 촬영 영상을 창고 지도와 연결하여 작업 현장을 확인하도록 했습니다.
 
 ![창고 지도와 로봇 영상을 이글아이 시스템에 연결하는 운영 개념]({{ '/images/portfolio/eagle-eye-overview.png' | relative_url }})
-*이글아이 시스템 운영 개념 · PPT 7쪽.*
+*이글아이 시스템 운영 개념*
 
-**드론 기반 창고 모니터링 구현**
+**1) 드론 기반 창고 모니터링 구현**
 
-- 2D 지도 경유점을 실제 이동 거리와 회전각으로 변환했습니다.
-- 촬영 지점에서 랙 사이 통로로 회전한 뒤 영상을 전송했습니다.
-- 현장 실증으로 비행, 통로 촬영 및 서버 전송의 정상 작동을 확인했습니다.
+- 2D 지도 경유점을 실제 이동 거리와 회전각으로 변환.
+- 촬영 지점에서 랙 사이 통로로 회전한 뒤 영상을 서버에 전송.
+- 체코 테스트베드 현장 실증으로 비행, 통로 촬영 및 서버 전송의 정상 작동을 확인.
 
 ![창고 지도와 드론 및 현장 영상을 함께 표시하는 이글아이 모니터링 화면]({{ '/images/portfolio/eagle-eye-monitoring.png' | relative_url }})
-*드론 기반 창고 모니터링 화면 · PPT 8쪽.*
+*드론 기반 창고 모니터링 화면*
 
-**다수 로봇 적용을 위한 작업영역 분할**
+**2) 다수 로봇 적용을 위한 작업영역 분할**
 
 - 단일 드론 모니터링을 다수 로봇으로 확장하기 위한 작업영역 분할과 로봇 간 작업량 균형을 연구했습니다.
 - 초기 영역 배정으로 특정 로봇에 작업이 집중되는 문제를 줄이기 위해 전역 경계 재균형 방법을 설계했습니다.
 - 여러 경계 구역을 함께 재배정하면서 영역 연결성을 유지하고, 로봇별 경로 부담의 균형을 조정했습니다.
+- 단순한 아이디어 제안에 그치지 않고 기술의 독창성을 입증하여 특허 **출원 1건**의 성과를 창출하였습니다.
 
 **성과: 국제학술대회 논문 2건, 특허 출원 1건**
 
@@ -190,7 +197,7 @@ research: true
 여러 인물의 감정 범주와 강도를 실시간으로 분석하여 관리자가 대상자의 상태 변화를 확인하도록 지원하고, 조도 변화와 프레임별 예측 흔들림을 줄이는 것을 목표로 했습니다.
 
 ![영상 전처리, 얼굴 탐지와 추적, 감정 및 강도 인식, TC와 EMA 후처리로 이어지는 시스템 구조]({{ '/images/portfolio/emotion-recognition.png' | relative_url }})
-*감정 및 단계 인식 시스템 구조 · PPT 9쪽.*
+*감정 및 단계 인식 시스템 구조*
 
 **개발 내용**
 
@@ -223,15 +230,14 @@ RGB 영상과 LiDAR의 깊이 정보를 결합하여 고건축물과 유물을 �
 
 **담당 연구 계획: 특징점 추출 기술 개발 · RGB–LiDAR 융합 고품질 이미지 생성**
 
-PPT에 기재된 담당 연구 계획은 다음과 같습니다.
-
-1. **특징점 추출 기술 개발** — 모서리·곡선·꺾임 등 구조적 특징점을 자동 검출하고, 중복 특징점 제거와 좌표 정확도 개선을 수행합니다. 촬영 각도와 조명 변화에 강인한 매칭 기술을 개발하여 최소한의 특징점으로 원형에 가까운 복원을 지향합니다.
-2. **RGB–LiDAR 융합 이미지 생성** — RGB 카메라와 LiDAR의 정밀 캘리브레이션, 센서 동기화, 포인트 클라우드의 영상 정합을 수행합니다. 이미지 투영으로 색상과 깊이를 결합한 RGB+D를 생성하여 구조 정보를 포함하는 고품질 3D 복원 입력을 확보합니다.
+1. **특징점 추출 기술 개발** — 모서리, 곡선, 꺾임 등 구조적 특징점을 자동 검출하고 중복 특징점 제거와 좌표 정확도 개선을 수행합니다. 촬영 각도와 조명 변화에 강인한 매칭 기술을 개발하여 최소한의 특징점으로 원형에 가까운 복원을 지향합니다.  
 
 ![두 이미지에서 SuperPoint 특징점과 기술자를 추출해 대응점을 찾는 구조]({{ '/images/portfolio/feature-matching.png' | relative_url }}){: .research-figure-narrow }
-*특징점 추출과 대응점 매칭 개념 · PPT 12쪽.*
+*특징점 추출과 대응점 매칭 개념*
+
+2. **RGB–LiDAR 융합 이미지 생성** — RGB 카메라와 LiDAR의 정밀 캘리브레이션, 센서 동기화, 포인트 클라우드의 영상 정합을 수행합니다. 이미지 투영으로 색상과 깊이를 결합한 RGB+D를 생성하여 구조 정보를 포함하는 고품질 3D 복원 입력을 확보합니다.  
 
 ![RGB 영상과 LiDAR 포인트 클라우드를 캘리브레이션하고 영상에 투영해 RGBD를 생성하는 과정]({{ '/images/portfolio/rgb-lidar-fusion.png' | relative_url }})
-*RGB–LiDAR 좌표계 정합 및 RGBD 이미지 생성 프로세스 · PPT 12쪽.*
+*RGB–LiDAR 좌표계 정합 및 RGBD 이미지 생성 프로세스*
 
 ---
