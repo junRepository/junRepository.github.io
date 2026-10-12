@@ -41,17 +41,17 @@ research: true
 ### Publications
 
 1. **2D Layout-based Drone Warehouse Monitoring System**
-   Junwoo Nam, Hangyeol Lee, Sungwon Cho, Minhee Jo, Pavel Stasa, Jin-Woo Jung · **ISIS 2025**
-   2D 레이아웃 기반 경로계획을 이용한 실시간 드론 모니터링 시스템 연구.
+   Junwoo Nam, Hangyeol Lee, Sungwon Cho, Minhee Jo, Pavel Stasa, Jin-Woo Jung · **ISIS 2025**  
+   -> 2D 레이아웃 기반 경로계획을 이용한 실시간 드론 모니터링 시스템 연구.
 2. **An Embedded Real-Time System for Human Trajectory Prediction Using ROS 2**
-   Jihong Jeong, Junwoo Nam, Hangyeol Lee, Jongtae Rhee, Pavel Stasa, Jin-Woo Jung · **ICUFN 2026**
-   임베디드 환경에서 전방 하향 시점 영상을 통해 사람의 이동 경로를 실시간으로 예측하는 ROS 2 기반 시스템 연구.
+   Jihong Jeong, Junwoo Nam, Hangyeol Lee, Jongtae Rhee, Pavel Stasa, Jin-Woo Jung · **ICUFN 2026**  
+   -> 임베디드 환경에서 전방 하향 시점 영상을 통해 사람의 이동 경로를 실시간으로 예측하는 ROS 2 기반 시스템 연구.
 3. **Voice-Controlled Navigation for TurtleBot3 using ROS Noetic and Speech Recognition**
-   Mohammad Afif Kasno, Norhidayah Mohamad Yatim, Tae-Won Kang, Jo Min Hee, Junwoo Nam, Jin-Woo Jung · **ICTC 2024**
-   ROS 및 음성 인식을 활용한 음성 명령 기반 TurtleBot3 실시간 자율주행 제어 시스템 연구.
+   Mohammad Afif Kasno, Norhidayah Mohamad Yatim, Tae-Won Kang, Jo Min Hee, Junwoo Nam, Jin-Woo Jung · **ICTC 2024**  
+   -> ROS 및 음성 인식을 활용한 음성 명령 기반 TurtleBot3 실시간 자율주행 제어 시스템 연구.
 4. **직전 프레임을 활용한 감정 단계 인식 모델의 성능 향상을 위한 후처리 알고리즘 연구**
-   Minhee Jo, Hangyeol Lee, Junwoo Nam, Jin-Woo Jung · **한국지능시스템학회 2024 추계학술대회**
-   이전 프레임의 감정을 참고하여 갑작스러운 감정 인식 오류를 줄이고 탐지 안정성을 높이는 연구.
+   Minhee Jo, Hangyeol Lee, Junwoo Nam, Jin-Woo Jung · **한국지능시스템학회 2024 추계학술대회**  
+   -> 이전 프레임의 감정을 참고하여 갑작스러운 감정 인식 오류를 줄이고 탐지 안정성을 높이는 연구.
 
 ### Patents
 
@@ -60,15 +60,19 @@ research: true
 | 전역 경계 재균형을 이용한 다중 로봇 커버리지 경로 계획 장치 및 방법   | 남준우, 정진우 | 10-2026-0049001 |
 | 센서 및 환경 정보에 기반한 다중 로봇의 적응형 커버리지 경로 계획 방법 | 남준우, 정진우 | 출원 진행 중    |
 
+---
+
+
+
 ## Thesis
 
 ### 실내 환경에서의 카메라 탐지 영역을 고려한 적응형 그리드 기반 다수 로봇 커버리지 경로계획 연구
 
-**연구 목적**
+**1. 연구 목적**
 
 복잡한 실내 환경에서 모든 영역을 효율적으로 커버하는 경로를 생성하는 연구입니다. 카메라가 실제로 촬영하는 영역과 실내 공간 구조를 반영하여 중복 이동을 줄이고 전체 작업 영역을 커버하는 것을 목표로 했습니다.
 
-**기존 연구의 한계**
+**2. 기존 연구의 한계**
 
 - 장애물이 많은 창고에서는 경로 중복과 관측 누락이 발생합니다.
 - 균일 그리드는 넓은 공간도 잘게 나누어 불필요한 셀과 이동 경로를 생성합니다.
@@ -87,7 +91,7 @@ research: true
 ![풋프린트 크기를 기준으로 창고 공간을 나눈 균일 그리드 예시]({{ '/images/portfolio/footprint-grid.png' | relative_url }}){: .research-figure-narrow }
 *풋프린트 기반 그리드 예시 · PPT 4쪽.*
 
-**연구 방법**
+**3. 연구 방법**
 
 공간에 따라 경로의 세밀함을 조절하는 적응형 방식을 제안했습니다. 넓은 공간은 병합하고, 장애물 주변과 좁은 통로는 세밀하게 유지합니다.
 
@@ -113,7 +117,7 @@ research: true
 ![자유공간, 장애물 경계, 거리 지도를 ResNet18에 입력해 셀 임베딩을 추출하는 구조]({{ '/images/portfolio/resnet-features.png' | relative_url }})
 *ResNet 기반 특징 추출 · PPT 5쪽.*
 
-**실험 결과**
+**4. 실험 결과**
 
 | 비교 방법 | 최대 경로 길이 | 전체 경로 길이 | 경로 부담 표준편차 | 회전 수 |
 | :-------- | -------------: | -------------: | -----------------: | ------: |
@@ -128,6 +132,10 @@ research: true
 - 회전 수는 두 비교 방법보다 높았으며, 경로 부담 표준편차는 TMSTC*가 가장 낮았습니다.
 
 [석사 연구 상세 글]({{ site.baseurl }}{% post_url 2026-10-01-adaptive-grid-coverage %})
+
+---
+
+
 
 ## Project
 
